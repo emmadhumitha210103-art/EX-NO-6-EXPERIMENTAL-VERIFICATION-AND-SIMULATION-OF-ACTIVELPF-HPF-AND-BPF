@@ -40,15 +40,21 @@ A LPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ---
 ## CIRCUIT DIAGRAM
-<img width="836" height="455" alt="image" src="https://github.com/user-attachments/assets/e5181151-836f-4f80-8f56-53b23ff05c74" />
+
+<img width="1280" height="615" alt="image" src="https://github.com/user-attachments/assets/996836e4-2f99-45e3-a24f-72db64bec9d7" />
 
 
 ## MODEL GRAPH
-<img width="913" height="559" alt="image" src="https://github.com/user-attachments/assets/c8d28c41-6f3e-44a6-a9da-2b798cf07346" />
+
+<img width="1230" height="841" alt="image" src="https://github.com/user-attachments/assets/1dbf3286-396f-45ad-b283-776c36149b02" />
 
 ---
 
 ## DESIGN
+
+<img width="1280" height="512" alt="image" src="https://github.com/user-attachments/assets/3059c094-fa6c-4e41-bfad-699662f700ce" />
+<img width="1065" height="431" alt="image" src="https://github.com/user-attachments/assets/479c7f12-f851-416c-8b9b-f93fa659fcf8" />
+
 
 Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
 For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
@@ -76,25 +82,17 @@ PROCEDURE - (LPF):
 
 ## TABULATION
 
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
-		
+<img width="1280" height="927" alt="image" src="https://github.com/user-attachments/assets/aa81494b-82fc-45cd-8b10-7e4ee01ce438" />
+
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+<img width="722" height="985" alt="image" src="https://github.com/user-attachments/assets/6a38a4e1-8cd5-4b67-a4b2-dd13689aacc9" />
+
+<img width="1280" height="1023" alt="image" src="https://github.com/user-attachments/assets/83ed5b68-1413-489f-b78f-dfc3f57c2670" />
+
 
 ---
 
@@ -122,16 +120,22 @@ A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain i
 
 ## CIRCUIT DIAGRAM
 
-<img width="887" height="486" alt="image" src="https://github.com/user-attachments/assets/907a1395-28d4-406f-ac09-96c4e060587e" />
+<img width="1280" height="620" alt="image" src="https://github.com/user-attachments/assets/0acc98ff-9d4d-4338-af66-c34c44af0186" />
 
 
 ## MODEL GRAPH
 
-<img width="1005" height="382" alt="image" src="https://github.com/user-attachments/assets/22925efc-4abc-4fad-90d5-94f3348c3c0b" />
+<img width="1184" height="635" alt="image" src="https://github.com/user-attachments/assets/89b6f0cf-9673-4078-ae9b-5b9e1b87f072" />
 
 ---
 
 ## DESIGN
+
+<img width="1280" height="512" alt="image" src="https://github.com/user-attachments/assets/9e02ae3e-1716-4fc9-a26e-e0a21cae9fad" />
+
+
+<img width="1065" height="431" alt="image" src="https://github.com/user-attachments/assets/441f1a80-b8a0-401d-bbd0-d8bdd76519e0" />
+
 
 Given: fH = 1 KHz = 1/ (2πRC) Let C = 0.1 µF, R = 1.6 KΩ
 For n = 2, α (damping factor) = 1.414, Passband gain = Ao = 3 - α =3 – 1.414 = 1.586.
@@ -159,25 +163,19 @@ PROCEDURE - ( HPF):
 
 ## TABULATION
 
+<img width="1280" height="861" alt="image" src="https://github.com/user-attachments/assets/8104c658-133d-4407-977f-09eba6fa480b" />
+
 		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+<img width="729" height="1005" alt="image" src="https://github.com/user-attachments/assets/cc178b82-a74f-4fca-be02-24f13d59497a" />
+
+<img width="1280" height="1035" alt="image" src="https://github.com/user-attachments/assets/35ccb02e-87ca-4247-9980-ac452a0a93a9" />
+
+
 
 ---
 
@@ -205,11 +203,11 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 
 ## CIRCUIT DIAGRAM
 
-<img width="1068" height="446" alt="image" src="https://github.com/user-attachments/assets/ee37b95a-05ea-448c-9102-111e071e41e8" />
+<img width="1280" height="662" alt="image" src="https://github.com/user-attachments/assets/7dc7fe42-8ba2-43d5-9731-407c1c0e7efa" />
 
 ## MODEL GRAPH
 
-<img width="1055" height="537" alt="image" src="https://github.com/user-attachments/assets/f5eec55a-c00c-4eaf-a680-81ba95f66490" />
+<img width="1280" height="759" alt="image" src="https://github.com/user-attachments/assets/1e1e1274-67da-4543-9482-93eb2ed554bb" />
 
 
 ---
@@ -217,6 +215,9 @@ A BPF allows frequencies in between lower cut of frequency and higher cut of fre
 ## DESIGN
 
 DESIGN: BAND PASS FILTER
+
+<img width="1088" height="1280" alt="image" src="https://github.com/user-attachments/assets/8bb575c2-57b9-4eb1-b6b4-bebad2a2f58e" />
+
 
 Design a BPF to pass a band of 400Hz to 2KHz with a pass band gain of 4.
 1.	Select the highest cut-off frequency of LPF as fH = 10 KHz and the lowest cut-off frequency of HPF as fL = 1 KHz.
@@ -244,25 +245,16 @@ PROCEDURE:BAND PASS FILTER
 
 ## TABULATION
 
+<img width="1280" height="914" alt="image" src="https://github.com/user-attachments/assets/4cb886c3-5ba8-4fd4-a12b-13b2058875b9" />
 		
-| S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
-|------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="729" height="1005" alt="image" src="https://github.com/user-attachments/assets/06046e68-b789-425c-b3b2-35a4e26b57bc" />
+
+<img width="1280" height="1034" alt="image" src="https://github.com/user-attachments/assets/fe5b3a0a-e7d9-42b2-9e7c-cc00498452c5" />
+
 
 ---
 ##RESULT:
